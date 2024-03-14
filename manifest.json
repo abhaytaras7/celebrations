@@ -5,10 +5,10 @@
   "description": "Click the icon for a confetti celebration!",
   "permissions": [],
   "action": {
-    "default_popup": "popup.html" // Replace with "popup.html" if you create one
+    "default_popup": "popup.html" 
   },
   "background": {
-    "service_worker": "background.js" // Optional for complex logic
+    "service_worker": "background.js" 
   },
   "icons": {
   
