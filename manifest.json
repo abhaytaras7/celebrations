@@ -1,10 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Good extension",
-  "description": "Base Level Extension",
+  "name": "Confetti Fun!",
   "version": "1.0",
+  "description": "Click the icon for a confetti celebration!",
+  "permissions": [],
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "my.png"
+    "default_popup": "popup.html" // Replace with "popup.html" if you create one
+  },
+  "background": {
+    "service_worker": "background.js" // Optional for complex logic
+  },
+  "icons": {
+  
+    "128": "my.png"
   }
 }
