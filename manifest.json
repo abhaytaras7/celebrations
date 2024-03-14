@@ -1,17 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Confetti Fun!",
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
   "version": "1.0",
-  "description": "Click the icon for a confetti celebration!",
-  "permissions": [],
   "action": {
-    "default_popup": "popup.html" 
-  },
-  "background": {
-    "service_worker": "background.js" 
-  },
-  "icons": {
-  
-    "128": "my.png"
+    "default_popup": "hello.html",
+    "default_icon": "my.png"
   }
 }
